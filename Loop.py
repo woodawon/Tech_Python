@@ -1,4 +1,8 @@
-x = 0
-for x in range(20):
+# for x in range(20):
+#   print("Hello World")
+
+import time
+
+while True:
   print("Hello World")
-  print(x)
+  time.sleep(1)
