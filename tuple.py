@@ -31,7 +31,7 @@ print(x)
 # 2. Set도 immutable
 # 3. 어떤 내용물이 있는지 확인하는 게 빠르다.
 
-Key, Value
+# Key, Value
 x = {}
 x = dict()
 x["이름"] = "abc"
