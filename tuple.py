@@ -6,9 +6,9 @@ x = [1,2,3,4]
 print(x)
 
 x = [1,2,3]
-x.append(4)
+x.append(4) # x.append : x.add랑 같은 기능
 x.append(5)
-x.pop()
+x.pop() # 맨 마지막 위치의 값 제거
 x[3] = 5
 print(x)
 
