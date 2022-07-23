@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "msg/sms.py": [
+      {
+        "id": "f73f13ff-a466-4163-9d28-caa2bbbd9d15",
+        "line": 6,
+        "version": 67,
+        "index": 156
+      }
+    ]
+  }
 }
