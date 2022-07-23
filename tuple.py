@@ -2,13 +2,13 @@
 # 1. 여러개 or 순서대로 or 내용 바뀜 (엘레먼트)
 
 x = list()
-x = [1,2,3,4]
+x = [1, 2, 3, 4]
 print(x)
 
-x = [1,2,3]
-x.append(4) # x.append : x.add랑 같은 기능
+x = [1, 2, 3]
+x.append(4)  # x.append : x.add랑 같은 기능
 x.append(5)
-x.pop() # 맨 마지막 위치의 값 제거
+x.pop()  # 맨 마지막 위치의 값 제거
 x[3] = 5
 print(x)
 
@@ -18,14 +18,14 @@ print(x)
 # tuple 자료 구조로 나중에 버그 안생기게 하려고 쓰는 거임
 
 x = tuple()
-x = (1,2,3)
+x = (1, 2, 3)
 print(x)
 
 x = set()
 x.add(1)
 x.add(2)
-x = {1,2}
-x = set((1,2,3))
+x = {1, 2}
+x = set((1, 2, 3))
 print(x)
 # 1. 순서가 뒤죽박죽이 될 수 있다.(속도)
 # 2. Set도 immutable
@@ -47,7 +47,7 @@ print(x["이름"])
 # dictionary : key-value가 필요할 때
 
 # list + tuple vs set + dictionary
-# list + tuple : 
+# list + tuple :
 # 1) ordered - 순서가 정해져 있다 - 내용물이 자료구조에 들어간 순서대로 저장된다
 # 2) 멤버쉽 검색이 느리다 - 어떤 엘레먼트가 들어있는지 파악하기가 순서대로 돼서
 # set + dictionary :
